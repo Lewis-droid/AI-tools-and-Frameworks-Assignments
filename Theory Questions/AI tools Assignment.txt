@@ -1,0 +1,32 @@
+Q1: Explain the primary differences between TensorFlow and PyTorch. When would you choose one over the other?
+
+TensorFlow uses static computation graphs, while PyTorch uses dynamic computation graphs, allowing easier debugging and flexibility.
+
+a.Choose TensorFlow for large-scale production and deployment (e.g., via TensorFlow Serving).
+
+b.Choose PyTorch for research, experimentation, and rapid prototyping due to its simplicity and Pythonic style.
+
+Q2: Describe two use cases for Jupyter Notebooks in AI development.
+
+1.Interactive experimentation: Running and visualizing AI models step-by-step with immediate feedback.
+
+2.Data analysis and reporting: Combining code, text, and visualizations for explainable, shareable AI research.
+
+Q3: How does spaCy enhance NLP tasks compared to basic Python string operations?
+
+spaCy enhances NLP by providing optimized, pre-trained models for tokenization, part-of-speech tagging, and entity recognition—tasks that go far beyond simple string splitting or searching. It processes text linguistically and semantically, enabling deeper understanding of context and meaning.
+
+2.Compare Scikit-learn and TensorFlow in terms of:
+
+Target applications (e.g., classical ML vs. deep learning).
+
+Ease of use for beginners.
+
+Community support.
+
+| Feature                 | Scikit-learn                                                               | TensorFlow                                                                          |
+| ----------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Target Applications     | Classical Machine Learning (e.g., regression, classification, clustering). | Deep Learning and Neural Networks (e.g., CNNs, RNNs, Transformers).                        |
+| Ease of Use (Beginner)  | Very beginner-friendly, simple API, and well-documented examples.          | Steeper learning curve; requires understanding of tensors, graphs, and model architecture. |
+| Community Support     | Large community focused on data science and ML education.                  |   Very large and active community, especially in AI research and production deployment.      |
+
